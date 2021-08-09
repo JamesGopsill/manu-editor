@@ -1,0 +1,8 @@
+{
+	"document": "<title>Welcome to ManuScript</title>\n<publication>ManuScript</publication>\n\n<author>\n\t<name>James Gopsill</name>\n\t<affil>ManuScript</affil>\n</author>\n\n<keyword>Keyword One</keyword>\n<keyword>Keyword Two</keyword>\n\n<abstract>\n\nManuScript is a next generation scripting language to produce media rich web-enabled (by default) research papers. \n\n</abstract>\n\n<content>\n\n<h1>Introduction</h1>\n\n<h1>Features</h1>\n\n<h2>Rich Media Content</h2>\n\n<h2>Syntax and Functionality Designed for Research Papers</h2>\n\n<h1>Donations</h1>\n\n<h1>Roadmap</h1>\n\n</content>\n\n",
+	"fileList": {},
+	"citations": "",
+	"createdDate": 1628492924644,
+	"lastUpdatedDate": 1628492924644,
+	"schemaVersion": "v0.1.0"
+}

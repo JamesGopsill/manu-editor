@@ -1,0 +1,31 @@
+{
+  "name": "manu-editor",
+  "version": "0.1.0",
+  "description": "ManuScriptWeb Editor",
+  "main": "docs/index.html",
+  "author": "James Gopsill",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel src/index.html",
+    "format": "prettier --write src/**/*",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "parcel": "^2.0.0-beta.3.1",
+    "prettier": "^2.3.2",
+    "prettier-plugin-organize-imports": "^2.3.3",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "antd": "^4.16.7",
+    "bibtex-parser": "^0.0.0",
+    "katex": "^0.13.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-monaco-editor": "^0.44.0"
+  }
+}
