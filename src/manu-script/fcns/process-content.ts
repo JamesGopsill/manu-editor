@@ -9,7 +9,7 @@ import {
 	processTables,
 	processVideo,
 } from "."
-import { PromulJSON } from "../interfaces"
+import { ManuScript } from "../interfaces"
 import { removeTags, replaceAll, replaceWithHTMLEntities } from "./helper-fcns"
 
 /**
@@ -17,7 +17,7 @@ import { removeTags, replaceAll, replaceWithHTMLEntities } from "./helper-fcns"
  * @param d The PromulJSON containing all the information to create the HTML file.
  * @returns The HTML version of the paper.
  */
-export const processContent = (d: PromulJSON): string => {
+export const processContent = (d: ManuScript): string => {
 	let matches = d.document.match(/<content>([\s\S]*?)<\/content>/gim)
 	let content = ""
 

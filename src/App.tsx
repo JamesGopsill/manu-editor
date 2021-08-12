@@ -90,6 +90,22 @@ const App: FC = () => {
 
 	const downloadHTML = async () => {
 		console.log("Download")
+		// @ts-ignore
+		const newFileHandle = await window.showSaveFilePicker({
+			types: [
+				{
+					description: "ManuScript HTML",
+					accept: {
+						"text/plain": [".html"],
+					},
+				},
+			],
+		})
+		if (newFileHandle) {
+			const writable = await newFileHandle.createWritable()
+			await writable.write(paper)
+			await writable.close()
+		}
 	}
 
 	const updateDocument = (nV: string, e: any) => {
